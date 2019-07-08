@@ -1,0 +1,50 @@
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+/*Estilos de tutorial --------------*/
+.form-table {
+    display: table;
+    margin: auto;
+}
+
+.form-table .fila {
+    clear: both;
+}
+
+.form-table .celda {
+    float: left;
+}
+
+.form-table legend {
+    border: 1px solid #999;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.form-table fieldset {
+    padding: 6px;
+}
+
+.form-table label {
+    padding-right: 10px;
+}
+
+.form-table .center {
+    text-align: center;
+    padding-top: 4px;  /* IE6 */
+}
+
+.form-table input[type=submit] { /* !IE6 */
+    margin-top: 4px;
+}
+
+.form-table .separator {
+    border-bottom: 1px dotted #999;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
